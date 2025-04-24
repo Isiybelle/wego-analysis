@@ -25,7 +25,9 @@ This dataset contains a column HDWY_DEV, which shows the amount of deviation fro
 How do the variables studied related to headway deviation? 
 
 
-# Mulligant WeGo Presentation
+
+
+# Mulligang WeGo Presentation
 
 Team analysis of WeGo Public Transit data diving into operator and route efficiency. Our team worked together to determine how off shcedule buses seemed to be running and factors that could influence such. We compared the dataset's most experienced operators to determine on-time percentages, and observed separate stops per trip per route to find the least troublesome stops and the most consistnetly behind stops. This data was observed in a folium map to better showcase route adherence times and stats. 
 
