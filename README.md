@@ -23,3 +23,12 @@ Goals of these questions:
 9. **Headway** is the amount of time between a bus and the prior bus at the same stop. In the dataset, the amount of headway scheduled is contained in the SCHEDULED_HDWY column and indicates the difference between the scheduled time for a particular stop and the scheduled time for the previous bus on that same stop.
 This dataset contains a column HDWY_DEV, which shows the amount of deviation from the scheduled headway. **Bunching** occurs when there is shorter headway than scheduled, which would appear as a negative HDWY_DEV value. **Gapping** is when there is more headway than scheduled and appears as a positive value in the HDWY_DEV column. Note that you can calculate headway deviation percentage as HDWY_DEV/SCHEDULED_HDWY. The generally accepted range of headway deviation is 50% to 150% of the scheduled headway, so if scheduled headway is 10 minutes, a headway deviation of up to 5 minutes would be acceptable (but not ideal).
 How do the variables studied related to headway deviation? 
+
+
+#Mulligant WeGo Presentation
+
+Team analysis of WeGo Public Transit data diving into operator and route efficiency. Our team worked together to determine how off shcedule buses seemed to be running and factors that could influence such. We compared the dataset's most experienced operators to determine on-time percentages, and observed separate stops per trip per route to find the least troublesome stops and the most consistnetly behind stops. This data was observed in a folium map to better showcase route adherence times and stats. 
+
+**The Experiment**
+
+At the end, we decided to run a 'randomizer race' to see if we could manipulate probability to determine what operaters would 'win' on certain routes. We looked at routes 56 and 55 to be our 'race tracks' and used teh data's five most experienced operators as our 'racers'. After running the races several time, we came to interesting insights about on-time percentage, probability, and where high performing operators and lower performing operators would be best suited.
